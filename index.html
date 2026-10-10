@@ -8,6 +8,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -31,7 +34,7 @@
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div>
+        <div class="reveal">
           <span class="eyebrow">Desenvolvedor Full-Stack &amp; Automação</span>
           <h1>Transformo processos manuais em <span>sistemas que funcionam sozinhos</span></h1>
           <p>
@@ -44,7 +47,7 @@
             <a href="https://wa.me/5514998292836" target="_blank" rel="noopener" class="botao botao-secundario">Falar no WhatsApp</a>
           </div>
         </div>
-        <div class="hero-card">
+        <div class="hero-card reveal">
           <div class="hero-card-stat">
             <span>Conferência manual de OS</span>
             <strong>&lt; 1 min</strong>
@@ -67,36 +70,43 @@
 
     <section id="sobre">
       <div class="container">
-        <div class="secao-titulo">
-          <span class="eyebrow">Sobre mim</span>
-          <h2>Quem está do outro lado da tela</h2>
-          <p>
-            Técnico em Informática e Tecnólogo em Análise e Desenvolvimento de Sistemas, com
-            experiência prática em ERP Protheus/ADVPL, APIs, infraestrutura em nuvem e análise
-            de dados. Hoje dedicado a projetos freelance de automação e desenvolvimento sob
-            medida, com portfólio próprio de aplicações em produção.
-          </p>
-        </div>
-        <div class="sobre-grid">
-          <div class="sobre-card">
-            <span class="icone">🏭</span>
-            <h3>Experiência de ERP</h3>
-            <p>Atuação completa em TI na indústria, com ERP Protheus/ADVPL, APIs de integração e infraestrutura em nuvem.</p>
+        <div class="sobre-layout">
+          <div class="sobre-foto reveal">
+            <img src="assets/foto-sobre.jpg" alt="Lucas Toloto da Silva" loading="lazy">
           </div>
-          <div class="sobre-card">
-            <span class="icone">🤖</span>
-            <h3>Automação com IA</h3>
-            <p>Extração de dados de documentos, cruzamento de planilhas e geração automática de relatórios.</p>
-          </div>
-          <div class="sobre-card">
-            <span class="icone">📱</span>
-            <h3>Apps sob medida</h3>
-            <p>Sistemas web e mobile (PWA) pensados pro uso real: campo, obra, atendimento, gestão.</p>
-          </div>
-          <div class="sobre-card">
-            <span class="icone">📈</span>
-            <h3>Visão de negócio</h3>
-            <p>Gestão de mídias sociais da Toloto Fios e apoio à análise de dados e faturamento na Vetroresina.</p>
+          <div class="sobre-principal">
+            <div class="secao-titulo secao-titulo--esquerda reveal">
+              <span class="eyebrow">Sobre mim</span>
+              <h2>Quem está do outro lado da tela</h2>
+              <p>
+                Técnico em Informática e Tecnólogo em Análise e Desenvolvimento de Sistemas, com
+                experiência prática em ERP Protheus/ADVPL, APIs, infraestrutura em nuvem e análise
+                de dados. Hoje dedicado a projetos freelance de automação e desenvolvimento sob
+                medida, com portfólio próprio de aplicações em produção.
+              </p>
+            </div>
+            <div class="sobre-grid">
+              <div class="sobre-card reveal">
+                <span class="icone">🏭</span>
+                <h3>Experiência de ERP</h3>
+                <p>Atuação completa em TI na indústria, com ERP Protheus/ADVPL, APIs de integração e infraestrutura em nuvem.</p>
+              </div>
+              <div class="sobre-card reveal">
+                <span class="icone">🤖</span>
+                <h3>Automação com IA</h3>
+                <p>Extração de dados de documentos, cruzamento de planilhas e geração automática de relatórios.</p>
+              </div>
+              <div class="sobre-card reveal">
+                <span class="icone">📱</span>
+                <h3>Apps sob medida</h3>
+                <p>Sistemas web e mobile (PWA) pensados pro uso real: campo, obra, atendimento, gestão.</p>
+              </div>
+              <div class="sobre-card reveal">
+                <span class="icone">📈</span>
+                <h3>Visão de negócio</h3>
+                <p>Gestão de mídias sociais da Toloto Fios e apoio à análise de dados e faturamento na Vetroresina.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -104,7 +114,7 @@
 
     <section id="projetos">
       <div class="container">
-        <div class="secao-titulo">
+        <div class="secao-titulo reveal">
           <span class="eyebrow">Projetos</span>
           <h2>Cases reais, com demo funcionando</h2>
           <p>Cada projeto resolve um problema concreto — veja a demonstração ao vivo ou o código no GitHub.</p>
@@ -112,7 +122,7 @@
 
         <div class="projetos-lista">
 
-          <article class="projeto">
+          <article class="projeto reveal">
             <div class="projeto-imagem">
               <img src="assets/screenshots/vetprecision.jpg" alt="Site do VetPrecision, laboratório de oncologia veterinária" loading="lazy">
             </div>
@@ -140,7 +150,7 @@
             </div>
           </article>
 
-          <article class="projeto">
+          <article class="projeto reveal">
             <div class="projeto-imagem">
               <img src="assets/screenshots/extrator-documentos.jpg" alt="Dashboard do Extrator Inteligente de Documentos" loading="lazy">
             </div>
@@ -169,7 +179,7 @@
             </div>
           </article>
 
-          <article class="projeto">
+          <article class="projeto reveal">
             <div class="projeto-imagem">
               <img src="assets/screenshots/conciliador-os.jpg" alt="Dashboard do Conciliador de Ordens de Serviço" loading="lazy">
             </div>
@@ -197,7 +207,7 @@
             </div>
           </article>
 
-          <article class="projeto">
+          <article class="projeto reveal">
             <div class="projeto-imagem">
               <img src="assets/screenshots/diarias-obras.jpg" alt="Tela de marcação de diárias do app Diárias de Obra" loading="lazy">
             </div>
@@ -232,12 +242,12 @@
 
     <section id="habilidades">
       <div class="container">
-        <div class="secao-titulo">
+        <div class="secao-titulo reveal">
           <span class="eyebrow">Habilidades</span>
           <h2>Stack e ferramentas</h2>
         </div>
         <div class="skills-grid">
-          <div class="skills-grupo">
+          <div class="skills-grupo reveal">
             <h3>Backend</h3>
             <ul>
               <li>Python (FastAPI, automação)</li>
@@ -246,7 +256,7 @@
               <li>APIs REST</li>
             </ul>
           </div>
-          <div class="skills-grupo">
+          <div class="skills-grupo reveal">
             <h3>Frontend</h3>
             <ul>
               <li>React</li>
@@ -255,7 +265,7 @@
               <li>PWA</li>
             </ul>
           </div>
-          <div class="skills-grupo">
+          <div class="skills-grupo reveal">
             <h3>Dados &amp; IA</h3>
             <ul>
               <li>Extração com IA generativa (Groq, Claude)</li>
@@ -264,7 +274,7 @@
               <li>Engenharia de dados / Excel avançado</li>
             </ul>
           </div>
-          <div class="skills-grupo">
+          <div class="skills-grupo reveal">
             <h3>Infra &amp; qualidade</h3>
             <ul>
               <li>Computação em nuvem</li>
@@ -279,31 +289,31 @@
 
     <section id="servicos">
       <div class="container">
-        <div class="secao-titulo">
+        <div class="secao-titulo reveal">
           <span class="eyebrow">Serviços</span>
           <h2>Como posso ajudar seu negócio</h2>
           <p>Projetos sob medida, com escopo definido antes de começar.</p>
         </div>
         <div class="servicos-grid">
-          <div class="servico-card">
+          <div class="servico-card reveal">
             <span class="icone">📊</span>
             <h3>Automação de planilhas e relatórios</h3>
             <p>Cruzamento de dados, conciliação, geração automática de relatórios em Excel e PDF.</p>
             <span class="servico-preco">Orçamento sob consulta</span>
           </div>
-          <div class="servico-card">
+          <div class="servico-card reveal">
             <span class="icone">🧠</span>
             <h3>Extração de dados com IA</h3>
             <p>Leitura automática de documentos (notas fiscais, boletos, contratos) com revisão humana.</p>
             <span class="servico-preco">Orçamento sob consulta</span>
           </div>
-          <div class="servico-card">
+          <div class="servico-card reveal">
             <span class="icone">💻</span>
             <h3>Sistemas web e PWA sob medida</h3>
             <p>Aplicações completas para controle operacional, gestão e atendimento ao cliente.</p>
             <span class="servico-preco">Orçamento sob consulta</span>
           </div>
-          <div class="servico-card">
+          <div class="servico-card reveal">
             <span class="icone">🔌</span>
             <h3>Integrações e ERP (Protheus)</h3>
             <p>APIs de integração entre sistemas e desenvolvimento ADVPL.</p>
@@ -315,7 +325,7 @@
   </main>
 
   <section id="contato">
-    <div class="contato-secao">
+    <div class="contato-secao reveal">
       <h2>Vamos conversar sobre o seu projeto?</h2>
       <p>Me chama e me conta o que você precisa automatizar ou construir — respondo rápido.</p>
       <div class="contato-links">
